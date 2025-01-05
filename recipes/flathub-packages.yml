@@ -5,6 +5,10 @@ system:
       install:
         - org.mozilla.firefox
         - org.gnome.Loupe
+        - org.zotero.Zotero
+        - org.libreoffice.LibreOffice
+        - com.github.IsmaelMartinez.teams_for_linux
+        - org.gimp.GIMP
       remove:
         - org.gnome.eog
-    user: {} # Also add Flathub user repo, but no user packages
+user: {} # Also add Flathub user repo, but no user packages
