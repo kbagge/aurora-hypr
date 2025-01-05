@@ -9,12 +9,19 @@ install:
   - hyprlock
   - hypridle
   - xdg-desktop-portal-hyprland # desktop portal
-  # - xdg-desktop-portal-gtk
-  # - xdg-desktop-portal
-  # - eww-wayland
+# - xdg-desktop-portal-gtk
+# - xdg-desktop-portal
+# - eww-wayland
   - waybar
   - hyprsunset # redshift
   - hyprpolkitagent
-#  - cliphist
+# - cliphist
   - mako # notifications
   - grimblast
+
+# launcher
+  - rofi-wayland
+
+# Dependencies:
+  - qt5-qtwayland
+  - qt6-qtwayland
