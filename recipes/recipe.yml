@@ -18,18 +18,18 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
 # Default changes
-- type: rpm-ostree
-    repos:
-      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-    install:
-      - starship
-    remove:
+  - type: rpm-ostree
+  repos:
+    - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+  install:
+    - starship
+  remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
-# Load 
+# Load
   - from-file: hyprland-packages.yml
   - from-file: flathub-packages.yml
 
