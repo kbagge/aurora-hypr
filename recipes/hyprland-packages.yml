@@ -1,0 +1,20 @@
+type: rpm-ostree
+repos:
+  - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
+install:
+  - hyprland
+  - hyprpaper # wallpaper util
+  - hyprpicker # color
+  - hyprshot # screenshot util
+  - hyprlock
+  - hypridle
+  - xdg-desktop-portal-hyprland # desktop portal
+  # - xdg-desktop-portal-gtk
+  # - xdg-desktop-portal
+  # - eww-wayland
+  - waybar
+  - hyprsunset # redshift
+  - hyprpolkitagent
+#  - cliphist
+  - mako # notifications
+  - grimblast
