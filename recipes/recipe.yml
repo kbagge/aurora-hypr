@@ -19,11 +19,11 @@ modules:
 
 # Default changes
   - type: rpm-ostree
-  repos:
-    - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-  install:
-    - starship
-  remove:
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+    install:
+      - starship
+    remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
