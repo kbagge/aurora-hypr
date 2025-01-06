@@ -23,8 +23,8 @@ install:
   - mako
 
 # Extra packages
-- wlogout
-- gammastep
+  - wlogout
+  - gammastep
 
 # Screenshots
   - grimblast
