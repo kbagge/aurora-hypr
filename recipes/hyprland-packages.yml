@@ -22,6 +22,10 @@ install:
 # Notifications
   - mako
 
+# Extra packages
+- wlogout
+- gammastep
+
 # Screenshots
   - grimblast
 
