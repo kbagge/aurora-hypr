@@ -25,6 +25,8 @@ install:
 # Extra packages
   - wlogout
   - gammastep
+  - swww
+  - aylurs-gtk-shell 
 
 # Screenshots
   - grimblast
