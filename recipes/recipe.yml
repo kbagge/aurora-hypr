@@ -33,6 +33,7 @@ modules:
 # Load
   - from-file: hyprland-packages.yml
   - from-file: flathub-packages.yml
+  
   - from-file: hyprpanel_build.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
