@@ -7,3 +7,20 @@ install:
   - gtk3-devel
   - gtk-layer-shell-devel
   - gobject-introspection-devel
+# For hyprpanel
+  - wireplumber
+  - upower
+  - libgtop2
+  - bluez
+  - bluez-tools
+  - grimblast
+  - hyprpicker
+  - btop
+  - NetworkManager
+  - wl-clipboard
+  - swww
+  - brightnessctl
+  - gnome-bluetooth
+  - power-profiles-daemon
+  - gvfs
+  - nodejs
