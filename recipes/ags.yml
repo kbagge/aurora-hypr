@@ -1,0 +1,8 @@
+type: rpm-ostree
+install:
+  - meson
+  - vala
+  - valadoc
+  - gtk3-devel
+  - gtk-layer-shell-devel
+  - gobject-introspection-devel
