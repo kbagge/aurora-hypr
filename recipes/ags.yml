@@ -1,5 +1,6 @@
 type: rpm-ostree
 install:
+# For AGS:
   - meson
   - vala
   - valadoc
