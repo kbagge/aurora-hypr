@@ -15,7 +15,6 @@ install:
 # - xdg-desktop-portal
 
 # Bar
-# - eww-wayland
   - waybar
 
 # - cliphist
@@ -26,7 +25,6 @@ install:
   - wlogout
   - gammastep
   - swww
-  - aylurs-gtk-shell 
 
 # Screenshots
   - grimblast

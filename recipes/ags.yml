@@ -8,19 +8,11 @@ install:
   - gtk-layer-shell-devel
   - gobject-introspection-devel
 # For hyprpanel
-  - wireplumber
-  - upower
-  - libgtop2
-  - bluez
-  - bluez-tools
-  - grimblast
-  - hyprpicker
-  - btop
-  - NetworkManager
-  - wl-clipboard
-  - swww
-  - brightnessctl
-  - gnome-bluetooth
+# - upower
+# - libgtop2
+# - bluez
+# - bluez-tools
+# - wl-clipboard
   - power-profiles-daemon
   - gvfs
   - nodejs
