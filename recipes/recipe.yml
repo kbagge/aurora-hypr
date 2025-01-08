@@ -34,7 +34,7 @@ modules:
   - from-file: hyprland-packages.yml
   - from-file: flathub-packages.yml
   - from-file: ags.yml
-#  - from-file: ags_build.yml
+  - from-file: ags_build.yml
   - from-file: matugen.yml
 #  - from-file: hyprpanel_build.yml
 
