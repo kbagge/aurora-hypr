@@ -3,7 +3,7 @@ modules:
     snippets:
       - RUN git clone https://github.com/aylur/astal.git /tmp/astal
       - RUN cd /tmp/astal/lib/astal/io
-      - RUN meson setup --prefix /usr build
+      - RUN 'meson setup --prefix /usr build'
       - RUN meson install -C build
       
       - RUN cd /tmp/astal/lib/astal/gtk3
