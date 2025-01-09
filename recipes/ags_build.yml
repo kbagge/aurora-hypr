@@ -2,18 +2,18 @@ modules:
   - type: containerfile
     snippets:
       - RUN git clone https://github.com/aylur/astal.git /tmp/astal
-      - RUN cd /tmp/astal/lib/astal/io
+      - WORKDIR /tmp/astal/lib/astal/io
       - RUN 'meson setup --prefix /usr build'
       - RUN meson install -C build
       
-      - RUN cd /tmp/astal/lib/astal/gtk3
+      - WORKDIR /tmp/astal/lib/astal/gtk3
       - RUN meson setup --prefix /usr build
       - RUN meson install -C build
       
-      - RUN cd /tmp/astal/lang/gjs
+      - WORKDIR /tmp/astal/lang/gjs
       - RUN meson setup --prefix /usr build
       - RUN meson install -C build
 
       - RUN git clone https://github.com/aylur/ags.git /tmp/ags
-      - RUN cd /tmp/ags
+      - WORKDIR /tmp/ags
       - RUN go install -ldflags "-X 'main.gtk4LayerShell=$(pkg-config --variable=libdir gtk4-layer-shell-0)/libgtk4-layer-shell.so' -X 'main.astalGjs=$(pkg-config --variable=srcdir astal-gjs)'"
