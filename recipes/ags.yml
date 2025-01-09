@@ -7,3 +7,6 @@ install:
   - gtk3-devel
   - gtk-layer-shell-devel
   - gobject-introspection-devel
+  - cmake
+  - wayland-protocols-devel
+  - golang
