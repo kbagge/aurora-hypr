@@ -16,4 +16,6 @@ modules:
 
       - RUN git clone https://github.com/aylur/ags.git /tmp/ags
       - WORKDIR /tmp/ags
+      - ENV GOPATH=/tmp/go
       - RUN go install -ldflags "-X 'main.gtk4LayerShell=$(pkg-config --variable=libdir gtk4-layer-shell-0)/libgtk4-layer-shell.so' -X 'main.astalGjs=$(pkg-config --variable=srcdir astal-gjs)'"
+      - RUN mv /tmp/go/bin/ags /usr/bin/ags

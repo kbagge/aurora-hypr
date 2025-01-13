@@ -32,6 +32,8 @@ install:
 
 # launcher
   - rofi-wayland
+  - nwg-drawer
+  - nwg-panel
 
 # Dependencies:
   - qt5-qtwayland
