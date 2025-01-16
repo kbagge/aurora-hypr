@@ -35,7 +35,7 @@ install:
   - fuzzel
   - nwg-drawer
   - nwg-panel
-  - nm-applet
+  - network-manager-applet
 
 # Dependencies:
   - qt5-qtwayland
