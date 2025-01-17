@@ -40,3 +40,6 @@ install:
 # Dependencies:
   - qt5-qtwayland
   - qt6-qtwayland
+  # Hyprplugins:
+  - gcc-c++
+  - gcc
