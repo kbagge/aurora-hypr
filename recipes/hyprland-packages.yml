@@ -10,12 +10,17 @@ install:
   - hypridle
   - hyprsunset # redshift
   - hyprpolkitagent
+
   - xdg-desktop-portal-hyprland # desktop portal
 # - xdg-desktop-portal-gtk
 # - xdg-desktop-portal
 
 # Bar
   - waybar
+
+# Plugins
+  - hyprland-plugins
+  - pyprland
 
 # - cliphist
 # Notifications
