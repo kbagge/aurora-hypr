@@ -45,6 +45,7 @@ install:
 # Dependencies:
   - qt5-qtwayland
   - qt6-qtwayland
+  - aquamarine
   # Hyprplugins:
   - gcc-c++
   - gcc
