@@ -40,6 +40,7 @@ install:
   - fuzzel
   - nwg-drawer
   - nwg-panel
+  - nwg-look
   - network-manager-applet
 
 # Dependencies:
