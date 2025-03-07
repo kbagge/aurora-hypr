@@ -17,6 +17,7 @@ install:
 
 # Bar
   - waybar
+  - hyprpanel
 
 # Plugins
   - hyprland-plugins
