@@ -18,6 +18,7 @@ install:
 # Bar
   - waybar
   - hyprpanel
+  - aylurs-gtk-shell2
 
 # Plugins
   - hyprland-plugins
