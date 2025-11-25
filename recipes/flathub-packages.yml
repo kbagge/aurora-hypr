@@ -10,7 +10,6 @@ configurations:
       title: Flathub (system)
     install: # system flatpaks we want all users to have and not remove
       - org.mozilla.firefox
-      - org.gnu.emacs
       - org.zotero.Zotero   
       - org.libreoffice.LibreOffice
       - org.gimp.GIMP 
