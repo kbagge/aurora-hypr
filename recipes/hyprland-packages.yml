@@ -43,8 +43,8 @@ install:
   - nwg-drawer
   - nwg-panel
   - nwg-look
-  - network-manager-applet
-  - blueman
+#  - network-manager-applet
+#  - blueman
 
 # Dependencies:
   - qt5-qtwayland
