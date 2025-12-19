@@ -2,7 +2,7 @@ type: default-flatpaks
 configurations:
   - scope: user
     repo:
-      # you can override the title to make inclusion of both system and user repos clearer
+      # you can override the title to make inclusion of both system and user repos clearer -
       title: Flathub (user)
   - notify: true
     scope: system
