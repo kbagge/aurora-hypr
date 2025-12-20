@@ -24,6 +24,7 @@ modules:
     install:
       - ptyxis
       - emacs
+      - maildir-utils
       - starship
       - zsh
       - direnv
