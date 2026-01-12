@@ -5,7 +5,7 @@ name: cosmic-hypr
 description: This is my personal OS image based on ublue main with cosmic and hyprland alongside.
 
 base-image: ghcr.io/ublue-os/base-main
-image-version: latest # latest is also supported if you want new updates ASAP
+image-version: 43 # latest is also supported if you want new updates ASAP
 
 modules:
   - type: files
