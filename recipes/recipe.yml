@@ -18,20 +18,20 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
     install:
-      - ptyxis
-      - emacs
-      - maildir-utils
-      - starship
-      - zsh
-      - direnv
-      - lsd
-      - bat
+      packages:
+        - ptyxis
+        - emacs
+        - maildir-utils
+        - starship
+        - zsh
+        - direnv
+        - lsd
+        - bat
     remove:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
 # Load
-  - from-file: hyprland-packages.yml
   - from-file: flathub-packages.yml
   - from-file: cosmic-flatpak-repo.yml
   - from-file: cosmic-packages.yml

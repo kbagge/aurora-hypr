@@ -2,54 +2,50 @@ type: dnf
 repos:
   - https://copr.fedorainfracloud.org/coprs/solopasha/hyprland/repo/fedora-%OS_VERSION%/solopasha-hyprland-fedora-%OS_VERSION%.repo
 install:
-  - hyprland
-  - hyprpaper # wallpaper util
-  - hyprpicker # color
-  - hyprshot # screenshot util
-  - hyprlock
-  - hypridle
-  - hyprsunset # redshift
-  - hyprpolkitagent
+  packages:
+    - hyprland
+    - hyprpaper # wallpaper util
+    - hyprpicker # color
+    - hyprshot # screenshot util
+    - hyprlock
+    - hypridle
+    - hyprsunset # redshift
+    - hyprpolkitagent
 
-  - xdg-desktop-portal-hyprland # desktop portal
-# - xdg-desktop-portal-gtk
-# - xdg-desktop-portal
+    - xdg-desktop-portal-hyprland # desktop portal
 
 # Bar
-  - waybar
-  - hyprpanel
-  - aylurs-gtk-shell2
+    - waybar
+    - hyprpanel
+    - aylurs-gtk-shell2
 
 # Plugins
-  - hyprland-plugins
-  - pyprland
+    - hyprland-plugins
+    - pyprland
 
-# - cliphist
 # Notifications
-  - mako
+    - mako
 
 # Extra packages
-  - wlogout
-  - gammastep
-  - swww
+    - wlogout
+    - gammastep
+    - swww
 
 # Screenshots
-  - grimblast
-  - brightnessctl
+    - grimblast
+    - brightnessctl
 
 # launcher
-  - rofi-wayland
-  - fuzzel
-  - nwg-drawer
-  - nwg-panel
-  - nwg-look
-#  - network-manager-applet
-#  - blueman
+    - rofi-wayland
+    - fuzzel
+    - nwg-drawer
+    - nwg-panel
+    - nwg-look
 
 # Dependencies:
-  - qt5-qtwayland
-  - qt6-qtwayland
-  - aquamarine
+    - qt5-qtwayland
+    - qt6-qtwayland
+    - aquamarine
   # Hyprplugins:
-  - gcc-c++
-  - gcc
+    - gcc-c++
+    - gcc
