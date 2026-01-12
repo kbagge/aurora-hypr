@@ -1,5 +1,5 @@
 type: dnf
 
 group-install:
-  packages:
+  - packages:
     - cosmic-desktop-environment
