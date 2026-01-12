@@ -1,0 +1,5 @@
+type: rpm-ostree
+
+group-install:
+  packages:
+    - cosmic-desktop-environment
