@@ -36,7 +36,7 @@ modules:
   - from-file: cosmic-packages.yml
   - from-file: hyprland-packages.yml
   - from-file: flathub-packages.yml
-  - from-file: cosmis-flatpak-repo.yml
+  - from-file: cosmic-flatpak-repo.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
