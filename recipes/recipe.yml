@@ -16,7 +16,9 @@ modules:
 # Default changes
   - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      copr:
+      - atim/starship
+
     install:
       packages:
         - ptyxis
@@ -28,8 +30,9 @@ modules:
         - lsd
         - bat
     remove:
-      - firefox
-      - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      packages:
+        - firefox
+        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
 # Load
   - from-file: flathub-packages.yml
