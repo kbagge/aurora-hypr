@@ -1,4 +1,4 @@
-type: dnf
+type: rpm-ostree
 
 group-install:
   - packages:

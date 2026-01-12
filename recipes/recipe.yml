@@ -2,10 +2,8 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
 name: cosmic-hypr
-# description will be included in the image's metadata
 description: This is my personal OS image based on ublue main with cosmic and hyprland alongside.
 
-# the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/base-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
@@ -33,10 +31,10 @@ modules:
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
 # Load
-  - from-file: cosmic-packages.yml
   - from-file: hyprland-packages.yml
   - from-file: flathub-packages.yml
   - from-file: cosmic-flatpak-repo.yml
+  - from-file: cosmic-packages.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
