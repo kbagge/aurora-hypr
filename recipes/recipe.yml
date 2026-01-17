@@ -5,7 +5,7 @@ name: cosmic-hypr
 description: This is my personal OS image based on ublue main with cosmic and hyprland alongside.
 
 base-image: ghcr.io/ublue-os/base-main
-image-version: 43 # latest is also supported if you want new updates ASAP
+image-version: latest # latest is also supported if you want new updates ASAP
 
 modules:
   - type: files
@@ -38,6 +38,8 @@ modules:
   - from-file: flathub-packages.yml
   - from-file: cosmic-flatpak-repo.yml
   - from-file: cosmic-packages.yml
+# Will remove once cosmic have night light
+  - from-file: hyprland-packages.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
