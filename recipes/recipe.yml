@@ -22,6 +22,7 @@ modules:
     install:
       packages:
         - ptyxis
+        - gnupg2-scdaemon
         - emacs
         - maildir-utils
         - starship
