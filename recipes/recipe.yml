@@ -24,6 +24,7 @@ modules:
         - ptyxis
         - gnupg2-scdaemon
         - emacs
+        - enchant2-devel
         - maildir-utils
         - starship
         - zsh
