@@ -3,3 +3,8 @@ type: dnf
 group-install:
   packages:
     - cosmic-desktop-environment
+
+install:
+  packages:
+    - gammastep
+    - sway
