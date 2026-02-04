@@ -41,7 +41,7 @@ modules:
   - from-file: cosmic-flatpak-repo.yml
   - from-file: cosmic-packages.yml
 # Will remove once cosmic have night light
-  - from-file: hypr-mini.yml
+  - from-file: mini-hypr.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
