@@ -1,0 +1,9 @@
+type: dnf
+repos:
+  copr:
+  - solopasha/hyprland
+install:
+  packages:
+    - hyprland
+    - hyprsunset # redshift
+    - gammastep
