@@ -1,0 +1,14 @@
+type: dnf
+
+install:
+  packages:
+    - emacs
+    - enchant2-devel
+    - maildir-utils
+    - automake
+    - gcc
+    - libpng-devel
+    - poppler-devel
+    - poppler-glib-devel
+    - zlib-devel
+    - pkgconf

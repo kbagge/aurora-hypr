@@ -23,9 +23,6 @@ modules:
       packages:
         - ptyxis
         - gnupg2-scdaemon
-        - emacs
-        - enchant2-devel
-        - maildir-utils
         - starship
         - zsh
         - direnv
@@ -40,6 +37,7 @@ modules:
   - from-file: flathub-packages.yml
   - from-file: cosmic-flatpak-repo.yml
   - from-file: cosmic-packages.yml
+  - from-file: emacs.yml
 # Will remove once cosmic have night light
   - from-file: mini-hypr.yml
 
