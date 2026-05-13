@@ -39,7 +39,7 @@ modules:
   - from-file: cosmic-packages.yml
   - from-file: emacs.yml
 # Will remove once cosmic have night light
-  - from-file: mini-hypr.yml
+#  - from-file: mini-hypr.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
