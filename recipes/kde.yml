@@ -1,0 +1,5 @@
+type: dnf
+
+group-install:
+  packages:
+    - some kde thing - for now I just try the aurora base image and then add emacs and stuff myself for my image
