@@ -36,7 +36,6 @@ modules:
 
 # Load
   - from-file: flathub-packages.yml
-#  - from-file: kde.yml
 #  - from-file: cosmic-flatpak-repo.yml
 #  - from-file: cosmic-packages.yml
   - from-file: emacs.yml

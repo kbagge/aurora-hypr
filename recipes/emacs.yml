@@ -12,3 +12,4 @@ install:
     - poppler-glib-devel
     - zlib-devel
     - pkgconf
+    - wl-clipboard
