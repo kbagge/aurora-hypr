@@ -15,8 +15,7 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
 # Default changes
-# Default changes
-- type: dnf
+  - type: dnf
 
   repos:
     files:
