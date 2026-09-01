@@ -14,37 +14,35 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-# Default changes
+  # Default changes
   - type: dnf
 
-  repos:
-    files:
-      - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+    repos:
+      files:
+        - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
 
-  install:
-    packages:
-      - terra-release
-      - vicinae
-      - starship
-      - ptyxis
-      - gnupg2-scdaemon
-      - zsh
-      - direnv
-      - lsd
-      - bat
+    install:
+      packages:
+        - terra-release
+        - vicinae
+        - starship
+        - ptyxis
+        - gnupg2-scdaemon
+        - zsh
+        - direnv
+        - lsd
+        - bat
 
-  remove:
-    packages:
-      - firefox
-      - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+    remove:
+      packages:
+        - firefox
+        - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
 
 # Load
   - from-file: flathub-packages.yml
 #  - from-file: cosmic-flatpak-repo.yml
 #  - from-file: cosmic-packages.yml
   - from-file: emacs.yml
-# Will remove once cosmic have night light
-#  - from-file: mini-hypr.yml
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
