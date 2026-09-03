@@ -29,6 +29,7 @@ modules:
         - ptyxis
         - gnupg2-scdaemon
         - zsh
+        - clitest # Dep for zsh dotfile
         - direnv
         - lsd
         - bat

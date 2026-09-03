@@ -1,5 +1,5 @@
 type: dnf
-
+ 
 install:
   packages:
     - emacs
@@ -12,4 +12,3 @@ install:
     - poppler-glib-devel
     - zlib-devel
     - pkgconf
-    - wl-clipboard
