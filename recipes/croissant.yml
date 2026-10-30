@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+---
+type: dnf
+install:
+  packages:
+    - https://github.com/franciscoBSalgueiro/en-croissant/releases/download/v0.15.1/en-croissant-0.15.1-1.x86_64.rpm
